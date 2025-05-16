@@ -6,11 +6,7 @@ public class Enzanshi04 {
 		x=x*3;
 		System.out.println("xの値は"+x+"です。");
 		
-		System.out.println("xの値は"+(x*(double)0.5
-				)+"です。");
-		
-		
-		
+		System.out.println("xの値は"+(x*0.5)+"です。");		
 	}
 
 }
