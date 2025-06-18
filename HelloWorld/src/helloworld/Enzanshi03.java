@@ -1,17 +1,16 @@
 package helloworld;
-
 /**
  * @author みく
  * Enzanshi03クラスは、2つの変数xとyの値を入れ替えるプログラムです。
  * 入れ替え前のxの値と、入れ替えた後のxの値を出力します。
- *
  */
 public class Enzanshi03 {
-
+	
     /**
      * mainメソッド
      * 変数xに11、yに22を代入し、それをzを使って入れ替えます。
-     *
+     * 入れ替え前と入れ替え後の値を出力します。
+     * @param　args コマンドライン引数（このプログラムでは使用しません）
      */
     public static void main(String[] args) {
         
