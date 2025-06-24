@@ -1,4 +1,5 @@
 package helloworld;
+
 /**
  * @author みく
  * Enzanshi04クラスは、代入したxの値（7）を3倍にした値を代入＆表示し、その後その値を0.5倍の値で表示します。

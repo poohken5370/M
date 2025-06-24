@@ -1,4 +1,5 @@
 package helloworld;
+
 /**
  *@author みく
  *Enzanshi02クラスは、"Hello "と"World"の二つの文字を繋げて、"Hello World"と出力するプログラムです。
