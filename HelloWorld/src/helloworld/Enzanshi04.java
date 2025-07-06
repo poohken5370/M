@@ -15,10 +15,10 @@ public class Enzanshi04 {
 	 */
 	public static void main(String[] args) {
 		int x = 7;
-		x = x*3;
+		x = x * 3;
 		System.out.println("xの値は" + x + "です。");
 		
-		System.out.println("xの値は" + ((double)x*0.5) + "です。");		
+		System.out.println("xの値は" + ((double)x * 0.5) + "です。");		
 	}
 
 }

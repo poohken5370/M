@@ -12,8 +12,8 @@ public class Enzanshi02 {
 	 * @param args コマンドライン引数（このプログラムでは使用しません）
 	 */
 	public static void main(String[] args) {
-		String H = "Hello ";
-		String W = "World";
-		System.out.println(H + W);
+		String h = "Hello ";
+		String w = "World";
+		System.out.println(h + w);
 	}
 }
