@@ -23,7 +23,7 @@ public class If01 {
         String str = br.readLine();
         int scr = Integer.parseInt(str);
 
-        if (scr < 0 || scr > 100) {
+        if (scr < 0 || scr > 10) {
             System.out.println("正しい点数を入力してください。（0～100）");
             return;
         }
