@@ -2,8 +2,8 @@ package helloworld;
 import java.io.*;
 
 /**
- * @author みく
  * If01クラスは、試験点数を入力すると3種類の成績評価を出力するプログラムです。
+ * @author みく
  */
 public class If01 {
 
