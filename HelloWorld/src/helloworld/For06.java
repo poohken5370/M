@@ -16,13 +16,13 @@ public class For06
 	            System.out.print((i+1) + "人目: ");
 	            names[i] = br.readLine(); // 入力を配列に格納
 	        }
-
-	        System.out.println("--- 通常for文で出力 ---");
+	        System.out.println("\n--- 通常for文で出力 ---");
 	        for (int i = 0; i < names.length; i++) {
 	            System.out.println((i+1) + "人目: " + names[i]);
 	        }
-
-	        System.out.println("--- 拡張for文で出力 ---");
+	        
+	        // ▼ 入力（拡張for文）
+	        System.out.println("\n--- 拡張for文で出力 ---");
 	        for (String n : names) {
 	            System.out.println(n);
 	        }
