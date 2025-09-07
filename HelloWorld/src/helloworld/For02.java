@@ -46,14 +46,21 @@ public class For02
 			int p = Integer.parseInt(price[i]);
 			int pay = Integer.parseInt(payment[i]);
 			
-			if(pay - p >= 0) {
+			if(pay - p > 0) {
+				System.out.println(name[i] + ',' + price[i] + ',' + "支払金超過");
+			}
+			else if(pay - p == 0){
 				System.out.println(name[i] + ',' + price[i] + ',' + "支払金過不足無し");
 			}
 			else{
 				System.out.println(name[i] + ',' + price[i] + ',' + "支払金額不足");
 			}
 		}
-		System.out.println("全体の不足金：" + -total + "円");
+		if(total >= 0) {
+			System.out.println("不足金はありません。");
+		}
+		else {
+			System.out.println("全体の不足金：" + -total + "円");
+		}
 	}
-
 }
