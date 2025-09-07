@@ -47,13 +47,13 @@ public class For02
 			int pay = Integer.parseInt(payment[i]);
 			
 			if(pay - p > 0) {
-				System.out.println(name[i] + ',' + price[i] + ',' + "支払金超過");
+				System.out.println(name[i] + ',' + price[i] + "円," + "支払金超過");
 			}
 			else if(pay - p == 0){
-				System.out.println(name[i] + ',' + price[i] + ',' + "支払金過不足無し");
+				System.out.println(name[i] + ',' + price[i] + "円，" + "支払金過不足無し");
 			}
 			else{
-				System.out.println(name[i] + ',' + price[i] + ',' + "支払金額不足");
+				System.out.println(name[i] + ',' + price[i] + "円，" + "支払金額不足");
 			}
 		}
 		if(total >= 0) {
